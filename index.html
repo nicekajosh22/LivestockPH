@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>LivestockPH</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <!-- <link rel="stylesheet" href="../css/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/css/custom.min.css">
+    <script>
+
+     var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-23019901-1']);
+      _gaq.push(['_setDomainName', "bootswatch.com"]);
+        _gaq.push(['_setAllowLinker', true]);
+      _gaq.push(['_trackPageview']);
+
+     (function() {
+       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+     })();
+
+    </script> -->
+
+    <link href="css/w3.css" rel="stylesheet" type="text/css">
+    <link href="css/image.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        .image-circle {
+          display: inline-block;
+          width: 150px;
+          height: 150px;
+          border-radius: 50%;
+
+          object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+<header><img src="img1.jpg"></header>
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                
+                <li class="sidebar-brand">
+                    <br>
+                    <img src="user.png" class="image-circle"><br>
+                    <a href="#">
+                        John Doe
+                    </a>
+                </li><br><br><br><br><br><br><br><br><br>
+                <!-- <ul class="nav nav-tabs"> -->
+                    <li class="sidebar-brand nav-item">
+                        <a class="nav-link active" data-toggle="tab" href="#livestock">livestock</a>
+                    </li>
+                    <li class="sidebar-brand nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#inventory">Invetory</a>
+                    </li>
+                    <li class="sidebar-brand nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#orders">Orders</a>
+                    </li>
+                    <li class="sidebar-brand nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#reserve">Reserve</a>
+                    </li>
+                    <li class="sidebar-brand nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#settings">Settings</a>
+                    </li>
+                <!-- </ul> -->
+                <li>
+                    <a href="#">Logout</a>
+                </li>
+            </ul>
+
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade active" id="livestock">
+            <div id="page-content-wrapper">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
+                            <a href="#" style="float:right;" class="w3-button btn btn-default w3-blue">+ Add</a>
+                            <h3>Livestock</h3>
+                            <table class="table table-hover">
+                              <thead>
+                                <tr>
+                                  <th scope="col">No</th>
+                                  <th scope="col">Category</th>
+                                  <th scope="col">Quantity</th>
+                                  <th scope="col">Breed</th>
+                                  <th scope="col">Months Old</th>
+                                  <th scope="col">Weight</th>
+                                  <th scope="col">Status</th>
+                                  <th scope="col">ReleaseDate</th>
+                                  <th scope="col">Actions</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr class="table-active">
+                                  <th scope="row">Active</th>
+                                  <td>Column content</td>
+                                  <td>Column content</td>
+                                  <td>Column content</td>
+                                  <td>Column content</td>
+                                  <td>Column content</td>
+                                  <td>Column content</td>
+                                  <td>Column content</td>
+                                  <td>Column content</td>
+                                </tr>
+                              </tbody>
+                            </table> 
+                        </div>
+                    </div>
+                </div>
+            </div>            
+          </div>
+          <div class="tab-pane fade" id="inventory">
+            <div id="page-content-wrapper">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <a href="#menu-toggle1" class="btn btn-default" id="menu-toggle1">Toggle Menu</a>
+                            <a href="#" style="float:right;" class="w3-button btn btn-default w3-blue">+ Add</a>
+                            <h3>Inventory</h3>
+                            <table class="table table-hover">
+                              <thead>
+                                <tr>
+                                  <th scope="col">No</th>
+                                  <th scope="col">Name</th>
+                                  <th scope="col">Category</th>
+                                  <th scope="col">Breed</th>
+                                  <th scope="col">Quantity</th>
+                                  <th scope="col">Month</th>
+                                  <th scope="col">Weight</th>
+                                  <th scope="col">Actions</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr class="table-active">
+                                  <th scope="row">Active</th>
+                                  <td>Column content</td>
+                                  <td>Column content</td>
+                                  <td>Column content</td>
+                                  <td>Column content</td>
+                                  <td>Column content</td>
+                                  <td>Column content</td>
+                                  <td>Column content</td>
+                                </tr>
+                              </tbody>
+                            </table> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="orders">
+            <div id="page-content-wrapper">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <a href="#menu-toggle2" class="btn btn-default" id="menu-toggle2">Toggle Menu</a>
+                            <a href="#" style="float:right;" class="w3-button btn btn-default w3-blue">+ Add</a>
+                            <h3>Orders</h3>
+                            <table class="table table-hover">
+                              <thead>
+                                <tr>
+                                  <th scope="col">No</th>
+                                  <th scope="col">Date</th>
+                                  <th scope="col">Buyer</th>
+                                  <th scope="col">Status</th>
+                                  <th scope="col">Action</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr class="table-active">
+                                  <th scope="row">Active</th>
+                                  <td>Column content</td>
+                                  <td>Column content</td>
+                                  <td>Column content</td>
+                                  <td>Column content</td>
+                                </tr>
+                              </tbody>
+                            </table> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="reserve">
+            <div id="page-content-wrapper">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <a href="#menu-toggle2" class="btn btn-default" id="menu-toggle2">Toggle Menu</a>
+                            <a href="#" style="float:right;" class="w3-button btn btn-default w3-blue">+ Add</a>
+                            <h3>Reserve</h3>
+                            <table class="table table-hover">
+                              <thead>
+                                <tr>
+                                  <th scope="col">No</th>
+                                  <th scope="col">Date</th>
+                                  <th scope="col">Buyer</th>
+                                  <th scope="col">Status</th>
+                                  <th scope="col">Action</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr class="table-active">
+                                  <th scope="row">Active</th>
+                                  <td>Column content</td>
+                                  <td>Column content</td>
+                                  <td>Column content</td>
+                                  <td>Column content</td>
+                                </tr>
+                              </tbody>
+                            </table> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="settings">
+            <div id="page-content-wrapper">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <a href="#menu-toggle3" class="btn btn-default" id="menu-toggle3">Toggle Menu</a>
+                            <h3>Settings</h3>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+    <script>
+    $("#menu-toggle1").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+    <script>
+    $("#menu-toggle2").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+    <script>
+    $("#menu-toggle3").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+    <script src="../js/js/_vendor/jquery/dist/jquery.min.js"></script>
+    <script src="../js/js/_vendor/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../js/js/_vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
